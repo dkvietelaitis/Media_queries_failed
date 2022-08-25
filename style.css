@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+        
+}
+body
+{
+    
+    background: #3cb371;
+    font-family: tahoma;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+  
+.container
+{
+    max-width: 950px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div
+{
+    
+    max-width: 500px;
+    margin: 10px;
+    gap: 10px;
+    background: white;
+    text-align: justify;
+    display: flex;
+        
+}
+
+img
+{
+    position: relative;
+    width: 100%;
+}
+
+
+p, h1
+{
+    margin: 10px;
+}
+.comments 
+{
+    float: right;
+}
+.author 
+{
+    float: left;
+}
+@media only screen and (min-width: 1024px)
+{
+    .container
+    {
+        display: flex;
+        flex-flow: wrap;              
+    }
+    .content1
+    {
+        width: 800px;
+        
+    }
+    .content2
+    {
+        width: 250px;
+        
+    }
+    .content3
+    {
+        width: 800px;
+                
+    }
+    .content4
+    {
+        width: 250px;
+        
+    }
+    .content5
+    {
+        width: 250px;
+                
+    }
+    .content6
+    {
+        width: 250px;
+        
+    }    
+}
+@media only screen and (max-width: 400px)
+{
+    .container
+    {
+        display: flex;
+        flex-flow: wrap;              
+    }
+    .content1
+    {
+        width: 350px;
+        
+    }
+    .content2
+    {
+        width: 350px;
+        
+    }
+    .content3
+    {
+        width: 350px;
+                
+    }
+    .content4
+    {
+        width: 350px;
+        
+    }
+    .content5
+    {
+        width: 350px;
+                
+    }
+    .content6
+    {
+        width: 350px;
+        
+    }
+}
